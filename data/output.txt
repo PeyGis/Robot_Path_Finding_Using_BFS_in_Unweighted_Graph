@@ -1,0 +1,78 @@
+coffie
+Scenario 1
+@       
+* # #   
+*       
+* * * $ 
+
+Scenario 2
+                    
+  @                 
+  *                 
+  *   # # # # # #   
+  *   # # # #       
+  *   # # # #       
+  * * * * # #       
+  # # # *           
+  # # # * * * * $   
+                    
+
+Scenario 3
+  $ * * # 
+  # # *   
+    * *   
+  # @ # # 
+# #       
+
+Scenario 4
+No path from (1 0) to (2 1)
+  # # 
+@ # # 
+# $ # 
+
+Scenario 5
+No path from (1 2) to (2 0)
+# # # 
+# # @ 
+$ # # 
+
+Scenario 6
+                      
+  @                 # 
+  * *               # 
+  # * # # # # # #   # 
+    * # # # #         
+    * # # # #         
+    * * * # #       # 
+  # # # *             
+  # # # * * * * $     
+                      
+  # # #   # # #   #   
+
+Scenario 7
+@ * $ 
+  # # 
+      
+
+Scenario 8
+Input file (102 x 102) is greater than the required dimension (100 x 100)
+
+Scenario 9
+@       
+* # #   
+*       
+* * * $ 
+
+Scenario 10
+Robot does not have either start or goal position
+        
+  # #   
+        
+      # 
+
+Scenario 11
+* $     
+* # #   
+*       
+* * @ # 
+

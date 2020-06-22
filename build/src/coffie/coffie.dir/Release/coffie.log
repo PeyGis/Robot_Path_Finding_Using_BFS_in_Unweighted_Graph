@@ -1,0 +1,29 @@
+﻿Build started 01/04/2020 17:04:19.
+     1>Project "C:\DSA\assignments\assignment5\build\src\coffie\coffie.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "coffie.dir\Release\coffie.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "coffie.dir\Release\coffie.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/DSA/assignments/assignment5/src/coffie/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"coffie.dir\Release\\" /Fd"coffie.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\coffie\assignment5Application.cpp ..\..\..\src\coffie\assignment5Implementation.cpp ..\..\..\src\coffie\graphImplementation.cpp
+         assignment5Application.cpp
+         assignment5Implementation.cpp
+         graphImplementation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DSA\assignments\assignment5\build\Release\coffie.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /NODEFAULTLIB:"libc;libcmt.lib;libcmtd.lib" /MANIFEST /ManifestFile:"coffie.dir\Release\coffie.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/DSA/assignments/assignment5/build/Release/coffie.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DSA/assignments/assignment5/build/Release/coffie.lib" /MACHINE:X86 coffie.dir\Release\assignment5Application.obj
+         coffie.dir\Release\assignment5Implementation.obj
+         coffie.dir\Release\graphImplementation.obj  /machine:X86
+         coffie.vcxproj -> C:\DSA\assignments\assignment5\build\Release\coffie.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\DSA\assignments\assignment5\build\Release\coffie.exe;#1" /manifest coffie.dir\Release\coffie.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "coffie.dir\Release\coffie.unsuccessfulbuild".
+         Touching "coffie.dir\Release\coffie.lastbuildstate".
+     1>Done Building Project "C:\DSA\assignments\assignment5\build\src\coffie\coffie.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59
